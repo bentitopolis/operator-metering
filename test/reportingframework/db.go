@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/operator-framework/operator-metering/pkg/operator"
-	"github.com/operator-framework/operator-metering/pkg/operator/prestostore"
+	"github.com/bentitopolis/operator-metering/pkg/operator"
+	"github.com/bentitopolis/operator-metering/pkg/operator/prestostore"
 )
 
 func (rf *ReportingFramework) StoreDataSourceData(dataSourceName string, metrics []*prestostore.PrometheusMetric) error {

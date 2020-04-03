@@ -8,10 +8,10 @@ import (
 	"github.com/sirupsen/logrus"
 	log "github.com/sirupsen/logrus"
 
-	metering "github.com/operator-framework/operator-metering/pkg/apis/metering/v1"
-	"github.com/operator-framework/operator-metering/pkg/aws"
-	"github.com/operator-framework/operator-metering/pkg/hive"
-	"github.com/operator-framework/operator-metering/pkg/operator/reportingutil"
+	metering "github.com/bentitopolis/operator-metering/pkg/apis/metering/v1"
+	"github.com/bentitopolis/operator-metering/pkg/aws"
+	"github.com/bentitopolis/operator-metering/pkg/hive"
+	"github.com/bentitopolis/operator-metering/pkg/operator/reportingutil"
 )
 
 const (

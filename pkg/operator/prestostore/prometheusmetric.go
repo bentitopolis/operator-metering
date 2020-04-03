@@ -8,10 +8,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/operator-framework/operator-metering/pkg/db"
-	"github.com/operator-framework/operator-metering/pkg/hive"
-	"github.com/operator-framework/operator-metering/pkg/operator/reportingutil"
-	"github.com/operator-framework/operator-metering/pkg/presto"
+	"github.com/bentitopolis/operator-metering/pkg/db"
+	"github.com/bentitopolis/operator-metering/pkg/hive"
+	"github.com/bentitopolis/operator-metering/pkg/operator/reportingutil"
+	"github.com/bentitopolis/operator-metering/pkg/presto"
 )
 
 const (

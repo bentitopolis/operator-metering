@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/operator-framework/operator-metering/pkg/hive"
-	"github.com/operator-framework/operator-metering/pkg/presto"
+	"github.com/bentitopolis/operator-metering/pkg/hive"
+	"github.com/bentitopolis/operator-metering/pkg/presto"
 	"github.com/stretchr/testify/assert"
 )
 

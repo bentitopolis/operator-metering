@@ -5,7 +5,7 @@ package versioned
 import (
 	"fmt"
 
-	meteringv1 "github.com/operator-framework/operator-metering/pkg/generated/clientset/versioned/typed/metering/v1"
+	meteringv1 "github.com/bentitopolis/operator-metering/pkg/generated/clientset/versioned/typed/metering/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

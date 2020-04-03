@@ -4,7 +4,7 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/operator-framework/operator-metering/pkg/db"
+	"github.com/bentitopolis/operator-metering/pkg/db"
 )
 
 type Column struct {
