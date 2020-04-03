@@ -6,7 +6,7 @@ import (
 
 	log "github.com/sirupsen/logrus"
 
-	"github.com/operator-framework/operator-metering/pkg/operator/prestostore"
+	"github.com/bentitopolis/operator-metering/pkg/operator/prestostore"
 )
 
 const (

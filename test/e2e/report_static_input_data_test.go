@@ -11,9 +11,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"k8s.io/apimachinery/pkg/types"
 
-	"github.com/operator-framework/operator-metering/pkg/operator/prestostore"
-	"github.com/operator-framework/operator-metering/test/reportingframework"
-	"github.com/operator-framework/operator-metering/test/testhelpers"
+	"github.com/bentitopolis/operator-metering/pkg/operator/prestostore"
+	"github.com/bentitopolis/operator-metering/test/reportingframework"
+	"github.com/bentitopolis/operator-metering/test/testhelpers"
 )
 
 var (

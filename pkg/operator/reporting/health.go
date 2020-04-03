@@ -4,9 +4,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/singleflight"
 
-	"github.com/operator-framework/operator-metering/pkg/db"
-	"github.com/operator-framework/operator-metering/pkg/hive"
-	"github.com/operator-framework/operator-metering/pkg/presto"
+	"github.com/bentitopolis/operator-metering/pkg/db"
+	"github.com/bentitopolis/operator-metering/pkg/hive"
+	"github.com/bentitopolis/operator-metering/pkg/presto"
 )
 
 type PrestoHealthChecker struct {

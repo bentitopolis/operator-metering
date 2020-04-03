@@ -15,14 +15,14 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/util/retry"
 
-	metering "github.com/operator-framework/operator-metering/pkg/apis/metering/v1"
-	"github.com/operator-framework/operator-metering/pkg/aws"
-	cbInterfaces "github.com/operator-framework/operator-metering/pkg/generated/clientset/versioned/typed/metering/v1"
-	"github.com/operator-framework/operator-metering/pkg/hive"
-	"github.com/operator-framework/operator-metering/pkg/operator/prestostore"
-	"github.com/operator-framework/operator-metering/pkg/operator/reporting"
-	"github.com/operator-framework/operator-metering/pkg/operator/reportingutil"
-	"github.com/operator-framework/operator-metering/pkg/util/slice"
+	metering "github.com/bentitopolis/operator-metering/pkg/apis/metering/v1"
+	"github.com/bentitopolis/operator-metering/pkg/aws"
+	cbInterfaces "github.com/bentitopolis/operator-metering/pkg/generated/clientset/versioned/typed/metering/v1"
+	"github.com/bentitopolis/operator-metering/pkg/hive"
+	"github.com/bentitopolis/operator-metering/pkg/operator/prestostore"
+	"github.com/bentitopolis/operator-metering/pkg/operator/reporting"
+	"github.com/bentitopolis/operator-metering/pkg/operator/reportingutil"
+	"github.com/bentitopolis/operator-metering/pkg/util/slice"
 )
 
 const (

@@ -3,8 +3,8 @@
 package v1
 
 import (
-	v1 "github.com/operator-framework/operator-metering/pkg/apis/metering/v1"
-	"github.com/operator-framework/operator-metering/pkg/generated/clientset/versioned/scheme"
+	v1 "github.com/bentitopolis/operator-metering/pkg/apis/metering/v1"
+	"github.com/bentitopolis/operator-metering/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

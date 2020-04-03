@@ -1,4 +1,4 @@
-module github.com/operator-framework/operator-metering
+module github.com/bentitopolis/operator-metering
 
 go 1.13
 

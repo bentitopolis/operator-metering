@@ -7,7 +7,7 @@ Each of them is built slightly differently.
   - Written in Go
   - Source is primarily in `pkg/`, and `cmd/` of this repo.
   - origin
-    - source is https://github.com/operator-framework/operator-metering
+    - source is https://github.com/bentitopolis/operator-metering
     - Dockerfile is `Dockerfile.reporting-operator`
     - Docker image is [quay.io/openshift/origin-metering-reporting-operator](https://quay.io/repository/openshift/origin-metering-reporting-operator)
     - Built by origin CI using prow/ci-operator
@@ -23,7 +23,7 @@ Each of them is built slightly differently.
   - Written using mostly bash, jq, python and helm charts.
   - Source is primarily in `charts/`, `images/helm-operator/`
   - origin
-    - Source: https://github.com/operator-framework/operator-metering
+    - Source: https://github.com/bentitopolis/operator-metering
     - Dockerfile is `Dockerfile.metering-operator`
     - Docker image is [quay.io/openshift/origin-metering-helm-operator](https://quay.io/repository/openshift/origin-metering-helm-operator)
     - Built by origin CI using prow/ci-operator
