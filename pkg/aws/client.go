@@ -120,7 +120,7 @@ func (r *manifestRetriever) filterObjects(prefix string, objects []*s3.Object) [
 
 		// We're looking for the top-level manifest for a given time range.
 		// These manifests are copies of manifests within the assemblyId
-		// directories, and are updated everytime a report for the given time
+		// directories, and are updated every time a report for the given time
 		// period is run. We use these to determine the "most up to date" set
 		// of data.
 		// We're looking for manifests in the following format:
